@@ -15,6 +15,7 @@
 		8A22A5D11E49C43A00BE3E47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A22A5CF1E49C43A00BE3E47 /* LaunchScreen.storyboard */; };
 		8A22A5DC1E49C43A00BE3E47 /* ThreadSafeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A22A5DB1E49C43A00BE3E47 /* ThreadSafeTests.m */; };
 		8A22A5E71E49C43A00BE3E47 /* ThreadSafeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A22A5E61E49C43A00BE3E47 /* ThreadSafeUITests.m */; };
+		8A76E6421E4D7F0C003EBCF1 /* SafeMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A76E6411E4D7F0C003EBCF1 /* SafeMutableArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8A22A5E21E49C43A00BE3E47 /* ThreadSafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreadSafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A22A5E61E49C43A00BE3E47 /* ThreadSafeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadSafeUITests.m; sourceTree = "<group>"; };
 		8A22A5E81E49C43A00BE3E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A76E6401E4D7F0C003EBCF1 /* SafeMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeMutableArray.h; sourceTree = "<group>"; };
+		8A76E6411E4D7F0C003EBCF1 /* SafeMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeMutableArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		8A22A5C01E49C43A00BE3E47 /* ThreadSafe */ = {
 			isa = PBXGroup;
 			children = (
+				8A76E6401E4D7F0C003EBCF1 /* SafeMutableArray.h */,
+				8A76E6411E4D7F0C003EBCF1 /* SafeMutableArray.m */,
 				8A22A5C41E49C43A00BE3E47 /* AppDelegate.h */,
 				8A22A5C51E49C43A00BE3E47 /* AppDelegate.m */,
 				8A22A5C71E49C43A00BE3E47 /* ViewController.h */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A22A5C91E49C43A00BE3E47 /* ViewController.m in Sources */,
+				8A76E6421E4D7F0C003EBCF1 /* SafeMutableArray.m in Sources */,
 				8A22A5C61E49C43A00BE3E47 /* AppDelegate.m in Sources */,
 				8A22A5C31E49C43A00BE3E47 /* main.m in Sources */,
 			);
@@ -505,6 +511,7 @@
 				8A22A5ED1E49C43A00BE3E47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A22A5EE1E49C43A00BE3E47 /* Build configuration list for PBXNativeTarget "ThreadSafeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				8A22A5F01E49C43A00BE3E47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A22A5F11E49C43A00BE3E47 /* Build configuration list for PBXNativeTarget "ThreadSafeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				8A22A5F31E49C43A00BE3E47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
